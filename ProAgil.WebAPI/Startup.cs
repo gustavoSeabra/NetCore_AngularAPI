@@ -35,6 +35,7 @@ namespace ProAgil.WebAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            // Aqui fala se vamos usar a tela de erro tratado pelo Asp.net (Top isso viu.)
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
